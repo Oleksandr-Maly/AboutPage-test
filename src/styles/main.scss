@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/jiu6wwk.css");
+
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+@import 'reset';
+@import 'normalize';
+
+@import './components/container.scss';
+@import './components/header.scss';
+@import './components/banner.scss';
+@import './components/section-about.scss';
+
+@import './components/section-services.scss';
+@import './components/services-card.scss';
+
+@import './components/footer.scss';
+@import './components/footer-social.scss';

@@ -1,0 +1,32 @@
+.services {
+  background-color: $secondary-color;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 49px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    @include onTablet {
+    margin: 0;
+    flex-wrap: nowrap;
+    }
+
+  }
+}

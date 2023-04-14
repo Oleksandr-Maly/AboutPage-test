@@ -1,0 +1,21 @@
+.footer-social {
+
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__item {
+    font-size: 20px;
+   
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+    
+    &:hover {
+      color: $accent-color
+    }
+  }
+
+}

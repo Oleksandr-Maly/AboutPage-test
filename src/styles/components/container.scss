@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 0 30px;
+
+  @include onDesktop {
+    padding: 0;
+    max-width: 1170px;
+  }
+
+  &--two-columns {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 15px;
+
+    @include onDesktop {
+      width: calc(50% - 15px);
+      margin: 0 15px;
+    }
+  }
+
+  &--three-columns {
+    width: 100%;
+    margin-bottom: 60px;
+
+    @include onTablet {
+    width: calc(33.33% - 10px);
+    margin-bottom: 30px;
+    }
+  }
+}
+

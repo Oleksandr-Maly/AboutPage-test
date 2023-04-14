@@ -1,0 +1,13 @@
+.footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  line-height: 50px;
+  
+  &__copyright {
+    font-size: 15px;
+  }
+}
